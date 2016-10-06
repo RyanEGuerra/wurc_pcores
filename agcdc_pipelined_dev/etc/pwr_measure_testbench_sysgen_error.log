@@ -1,0 +1,38 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 14.6                   E:/Programs/xilinx/14.6/ISE_DS/ISE/sysgen
+Matlab 8.0.0.783 (R2012b)               E:/Programs/MatlabR2012b
+ISE                                     E:/Programs/xilinx/14.6/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Illegal type on port: en
+     Block: 'pwr_measure_testbench/MEASURE_AVGPWR1/Counter'
+Error 0002: Illegal input type on port: d1
+     Block: 'pwr_measure_testbench/MEASURE_AVGPWR1/Logical1'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pwr_measure_testbench/MEASURE_AVGPWR1/Counter'
+
+Details:
+The en port has data type Fix_16_14.
+The en port must be a boolean signal.
+
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'pwr_measure_testbench/MEASURE_AVGPWR1/Logical1'
+
+Details:
+The d1 port is being driven by a Bool.
+Input data must all be of type "Bool" or all be of arithmetic
+type (UFix_* and/or Fix_*)
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
